@@ -9,8 +9,8 @@ script:
   - export DEBIAN_FRONTEND=noninteractive
   - git clone --depth=50 --branch=master https://github.com/beevelop/docker-wordpress.git beevelop/docker-wordpress
   - pwd
-  - ls -al
   - cd beevelop/docker-wordpress
+  - ls -al
   - git checkout -qf fb0b8bef2147b1b7c1b3c34e05eb5016cadb5e80
   - sudo service docker start
   - rvm use default
