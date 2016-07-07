@@ -7,7 +7,7 @@ script:
   - pwd
   - ls -al
   - export DEBIAN_FRONTEND=noninteractive
-  - git clone --depth=50 --branch=master https://github.  - com/beevelop/docker-wordpress.git beevelop/docker-wordpress
+  - git clone --depth=50 --branch=master https://github.com/beevelop/docker-wordpress.git beevelop/docker-wordpress
   - pwd
   - ls -al
   - cd beevelop/docker-wordpress
